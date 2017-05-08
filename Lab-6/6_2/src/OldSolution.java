@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Solution {
+public class OldSolution {
     public static void main(String[] args) {
         //Create new Scanner and PriorityQueue.
         Scanner sc = new Scanner(System.in);
