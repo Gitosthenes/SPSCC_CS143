@@ -22,7 +22,7 @@ public class Solution {
             Q.add(Q.peek());
             Q.add(Q.remove());
         }
-        for (int i = 0; i < qSize * 2; i++) {
+        while (Q.size() > 0) {
             System.out.print(Q.remove() + " ");
         }
     }
