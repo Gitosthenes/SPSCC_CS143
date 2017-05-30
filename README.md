@@ -9,3 +9,4 @@ Contains lab documents and working IntelliJ projects for every lab in the CS 143
 - Lab 6: Priority Queues.
 - Lab 7: Trees.
 - Lab 8: Heaps.
+- Lab 9: Sets, Maps and Hashes.
