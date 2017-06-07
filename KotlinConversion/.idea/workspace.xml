@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea2199ca-dae4-4f8f-9023-f745992ea537" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_1/.idea/Lab_1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_1/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_1/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_3/Num3_2/Main.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_3/Num3_3/Main.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_3/Num3_4/DoublyLinkedList.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_3/Num3_4/Main.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_4/Num4_1/Main.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_4/Num4_2/Main.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/1_2/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/1_2/MainKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/1_3/Die.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/1_3/DieRollKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/1_4/DieRollsKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2 - Shortcut.lnk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/2_3/I.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_1/ClassTest.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_1/ClassTest.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_1/MySquare.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_1/MySquare.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_2/Employee.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_2/Employee.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_2/Main.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_2/Main.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_3/Die.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_3/Die.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_3/DieRoll.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_3/DieRoll.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lab_1/1_4/DieRolls.kt" afterPath="$PROJECT_DIR$/src/Lab_1/Num1_4/DieRolls.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/ClassTestKt.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/ClassTestKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/MySquare.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_1/MySquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_2/MainKt.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_2/MainKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/C.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/C.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/I.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/I.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/MainKt.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_3/MainKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_5/MainKt.class" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/Lab_2/Num2_5/MainKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/META-INF/KotlinConversion.kotlin_module" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/META-INF/KotlinConversion.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lab_2/Num2_2/Main.kt" afterPath="$PROJECT_DIR$/src/Lab_2/Num2_2/Main.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lab_2/Num2_3/I.kt" afterPath="$PROJECT_DIR$/src/Lab_2/Num2_3/I.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lab_2/Num2_5/Main.kt" afterPath="$PROJECT_DIR$/src/Lab_2/Num2_5/Main.kt" />
-    </list>
+    <list default="true" id="ea2199ca-dae4-4f8f-9023-f745992ea537" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -531,7 +491,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1076" y="0" width="1323" height="1447" extended-state="1" />
+    <frame x="1076" y="0" width="1323" height="1447" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -542,7 +502,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5220643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5220643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
