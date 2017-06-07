@@ -14,6 +14,7 @@ fun main(args:Array<String>) {
     val xChar = 'a'
     val xString: String = "Fake News"
 
+
     whatIsThisObject(xBool)
     whatIsThisObject(xByte)
     whatIsThisObject(xShort)
@@ -24,24 +25,19 @@ fun main(args:Array<String>) {
     whatIsThisObject(xChar)
     whatIsThisObject(xString)
 }
-fun whatIsThisObject(X: Any) {
-    if(X is Boolean) {
-        println("This is a boolean.")
-    } else if(X is Byte) {
-        println("This is a byte.")
-    } else if(X is Short) {
-        println("This is a short.")
-    } else if(X is Int) {
-        println("This is an integer.")
-    } else if(X is Long) {
-        println("This is a long.")
-    } else if(X is Float) {
-        println("This is a float.")
-    } else if(X is Double) {
-        println("This is a double.")
-    } else if(X is Char) {
-        println("This is a character.")
-    } else {
-        println("Interface don't know what that is.")
+
+fun whatIsThisObject(x: Any) {
+    when(x) {
+        is Boolean -> println("This is a boolean.")
+        is Byte -> println("This is a byte.")
+        is Short -> println("This is a short.")
+        is Int -> println("This is an integer.")
+        is Long -> println("This is a long.")
+        is Float -> println("This is a float.")
+        is Double -> println("This is a double.")
+        is Char -> println("This is a character")
+        else -> {
+            println("I don't know what that is.")
+        }
     }
 }
