@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2199ca-dae4-4f8f-9023-f745992ea537" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_6/Num6_2/Entry.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_6/Num6_2/Main.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_7/Num7_2/Main.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_7/Num7_2/TreeNode.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_7/Num7_4/Main.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lab_7/Num7_4/TreeNode.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinConversion/META-INF/KotlinConversion.kotlin_module" afterPath="$PROJECT_DIR$/out/production/KotlinConversion/META-INF/KotlinConversion.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -17,44 +19,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5136139">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Lab_6/Num6_2/Main.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Entry.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Lab_6/Num6_2/Entry.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc;n#Entry#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -113,6 +84,12 @@
         <option value="$PROJECT_DIR$/src/Lab_6/Num6_2/PriorityQueueTest.java" />
         <option value="$PROJECT_DIR$/src/Lab_6/Num6_2/PriorityQueueTest.kt" />
         <option value="$PROJECT_DIR$/src/Lab_6/Num6_2/Entry.kt" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_2/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_2/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_2/TreeNode.kt" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_2/Main.kt" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_4/TreeNode.kt" />
+        <option value="$PROJECT_DIR$/src/Lab_7/Num7_4/Main.kt" />
       </list>
     </option>
   </component>
@@ -149,6 +126,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KotlinConversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinConversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinConversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Num7_4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinConversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinConversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab_7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Num7_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,16 +618,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bleds\IdeaProjects\KotlinConversion\src\Lab_2\2_2" />
-      <recent name="C:\Users\bleds\IdeaProjects\KotlinConversion\src\Lab_2\2_2\2_2" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Lab1_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bleds\Documents\GitHub\SPSCC_CS143\KotlinConversion\src\Lab_7\Num7_4" />
       <recent name="C:\Users\bleds\Documents\GitHub\SPSCC_CS143\KotlinConversion\src\Lab_4\Num4_4_recursive" />
       <recent name="C:\Users\bleds\Documents\GitHub\SPSCC_CS143\KotlinConversion\src\Lab_3\Num3_4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bleds\IdeaProjects\KotlinConversion\src\Lab_2\2_2" />
+      <recent name="C:\Users\bleds\IdeaProjects\KotlinConversion\src\Lab_2\2_2\2_2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,33 +643,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Lab_6.Num6_2.MainKt">
-    <configuration default="false" name="Lab_4.Num4_4_recursive.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Lab_4.Num4_4_recursive.MainKt" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinConversion" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lab_5.Num5_2.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Lab_5.Num5_2.MainKt" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinConversion" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Lab_7.Num7_4.MainKt">
     <configuration default="false" name="Lab_5.Num5_4.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Lab_5.Num5_4.MainKt" />
@@ -677,6 +673,32 @@
     <configuration default="false" name="Lab_6.Num6_2.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Lab_6.Num6_2.MainKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinConversion" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lab_7.Num7_2.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Lab_7.Num7_2.MainKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinConversion" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lab_7.Num7_4.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Lab_7.Num7_4.MainKt" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -901,19 +923,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.Lab_4.Num4_4_recursive.MainKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_2.MainKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_4.MainKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_5.MainKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.Lab_6.Num6_2.MainKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_4.MainKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_5.MainKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.Lab_6.Num6_2.MainKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.Lab_7.Num7_2.MainKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.Lab_7.Num7_4.MainKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.Lab_6.Num6_2.MainKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_5.MainKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_4.MainKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_2.MainKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.Lab_4.Num4_4_recursive.MainKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.Lab_7.Num7_4.MainKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.Lab_7.Num7_2.MainKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.Lab_6.Num6_2.MainKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_5.MainKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.Lab_5.Num5_4.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -932,7 +954,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1300" y="0" width="1152" height="1447" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -943,7 +964,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28870606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1163,6 +1184,60 @@
           <folding>
             <element signature="n#!!doc;n#Entry#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_2/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_2/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_2/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_2/TreeNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc;n#TreeNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_4/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc;n#main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/Num7_4/TreeNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
