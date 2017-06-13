@@ -36,7 +36,6 @@ public class SortTimer {
 
         //Call all four sorts on each array and displays the results.
         for (int[] i : arrays) {
-
             //Insertion Sort:
             for (int j : i) {
                 j = r.nextInt(999999);

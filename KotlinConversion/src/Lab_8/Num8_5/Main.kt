@@ -1,13 +1,17 @@
+@file:Suppress("NAME_SHADOWING")
+
 package Lab_8.Num8_5
 
 import java.util.*
+import kotlin.collections.ArrayList
 
 /**
  * Created by Alex Bledsoe, 6/11/2017.
  */
 fun main(args: Array<String>) {
+    val arrays = ArrayList<IntArray>()
     val rand = Random()
-    var start: Long = 0
+    var start: Long
     var end: Long
     var duration: Long
 
@@ -17,223 +21,59 @@ fun main(args: Array<String>) {
     val d = IntArray(100000)
     val e = IntArray(1000000)
 
-    //Sorting the 1st array:
-//-----------------------------------------------------------------
-    //Insertion Sort:
-    println("Working on an array of length ${a.size}.")
-    for (i in a.indices) {
-        a[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    insertionSort(a)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Insertion sort: $duration μs.")
-//------------------------------------------------------------------
-    //Selection Sort:
-    for (i in a.indices) {
-        a[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    selectionSort(a)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Selection sort: $duration μs.")
-//------------------------------------------------------------------
-    //Merge Sort:
-    for (i in a.indices) {
-        a[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    mergeSort(a)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Merge sort: $duration μs.")
-//------------------------------------------------------------------
-    //Quick Sort:
-    for (i in a.indices) {
-        a[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    quickSort(a)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Quick sort: $duration μs.")
-    for (i in a.indices) {
-        a[i] = rand.nextInt(1000000)+1
-    }
-/**===================================================================*/
+    arrays.add(a)
+    arrays.add(b)
+    arrays.add(c)
+    arrays.add(d)
+    arrays.add(e)
 
-    //Sorting the 2nd array:
-//-----------------------------------------------------------------
-    //Insertion Sort:
-    println("\nWorking on an array of length ${b.size}.")
-    for (i in b.indices) {
-        b[i] = rand.nextInt(1000000)+1
-    }
-    insertionSort(b)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Insertion sort: $duration μs.")
+    for (i: IntArray in arrays) {
+        println("Sorting array of size ${i.size}:")
 //------------------------------------------------------------------
-    //Selection Sort:
-    for (i in b.indices) {
-        b[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    selectionSort(b)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Selection sort: $duration μs.")
+        //Insertion Sort:
+        for (j in i.indices) {
+            i[j] = rand.nextInt(1000000)+1
+        }
+        start = System.nanoTime()
+        insertionSort(i)
+        end = System.nanoTime()
+        duration = (end-start)/2
+        println("Insertion sort: $duration μs.")
 //------------------------------------------------------------------
-    //Merge Sort:
-    for (i in b.indices) {
-        b[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    mergeSort(b)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Merge sort: $duration μs.")
+        //Selection Sort:
+        for (j in i.indices) {
+            i[j] = rand.nextInt(1000000)+1
+        }
+        start = System.nanoTime()
+        selectionSort(i)
+        end = System.nanoTime()
+        duration = (end - start)/1000
+        println("Selection sort: $duration μs.")
 //------------------------------------------------------------------
-    //Quick Sort:
-    for (i in b.indices) {
-        b[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    quickSort(b)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Quick sort: $duration μs.")
-/**===================================================================*/
-
-    //Sorting the 3rd array:
-//-----------------------------------------------------------------
-    //Insertion Sort:
-    println("\nWorking on an array of length ${c.size}.")
-    for (i in c.indices) {
-        c[i] = rand.nextInt(1000000)+1
-    }
-    insertionSort(c)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Insertion sort: $duration μs.")
+        //Merge Sort:
+        for (j in i.indices) {
+            i[j] = rand.nextInt(1000000)+1
+        }
+        start = System.nanoTime()
+        mergeSort(i)
+        end = System.nanoTime()
+        duration = (end - start)/1000
+        println("Merge sort: $duration μs.")
 //------------------------------------------------------------------
-    //Selection Sort:
-    for (i in c.indices) {
-        c[i] = rand.nextInt(1000000)+1
+        //Quick Sort:
+        for (j in i.indices) {
+            i[j] = rand.nextInt(1000000)+1
+        }
+        start = System.nanoTime()
+        quickSort(i)
+        end = System.nanoTime()
+        duration = (end - start)/1000
+        println("Quick sort: $duration μs.")
+        for (i in a.indices) {
+            a[i] = rand.nextInt(1000000)+1
+        }
+        println()
     }
-    start = System.nanoTime()
-    selectionSort(c)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Selection sort: $duration μs.")
-//------------------------------------------------------------------
-    //Merge Sort:
-    for (i in c.indices) {
-        c[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    mergeSort(c)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Merge sort: $duration μs.")
-//------------------------------------------------------------------
-    //Quick Sort:
-    for (i in c.indices) {
-        c[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    quickSort(c)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Quick sort: $duration μs.")
-/**===================================================================*/
-
-    //Sorting the 4th array:
-//-----------------------------------------------------------------
-    //Insertion Sort:
-    println("\nWorking on an array of length ${d.size}.")
-    for (i in d.indices) {
-        d[i] = rand.nextInt(1000000)+1
-    }
-    insertionSort(d)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Insertion sort: $duration μs.")
-//------------------------------------------------------------------
-    //Selection Sort:
-    for (i in d.indices) {
-        d[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    selectionSort(d)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Selection sort: $duration μs.")
-//------------------------------------------------------------------
-    //Merge Sort:
-    for (i in d.indices) {
-        d[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    mergeSort(d)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Merge sort: $duration μs.")
-//------------------------------------------------------------------
-    //Quick Sort:
-    for (i in d.indices) {
-        d[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    quickSort(d)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Quick sort: $duration μs.")
-/**===================================================================*/
-
-    //Sorting the 5th array:
-//-----------------------------------------------------------------
-    //Insertion Sort:
-    println("\nWorking on an array of length ${e.size}.")
-    for (i in e.indices) {
-        e[i] = rand.nextInt(1000000)+1
-    }
-    insertionSort(e)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Insertion sort: $duration μs.")
-//------------------------------------------------------------------
-    //Selection Sort:
-    for (i in e.indices) {
-        e[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    selectionSort(e)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Selection sort: $duration μs.")
-//------------------------------------------------------------------
-    //Merge Sort:
-    for (i in e.indices) {
-        e[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    mergeSort(e)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Merge sort: $duration μs.")
-//------------------------------------------------------------------
-    //Quick Sort:
-    for (i in e.indices) {
-        e[i] = rand.nextInt(1000000)+1
-    }
-    start = System.nanoTime()
-    quickSort(e)
-    end = System.nanoTime()
-    duration = (end - start)/1000
-    println("Quick sort: $duration μs.")
 }
 
 fun insertionSort(array: IntArray) {
@@ -251,11 +91,10 @@ fun insertionSort(array: IntArray) {
 fun selectionSort(array: IntArray) {
     for (i in 0 until array.size-1) {
         var index = i
-        for (j in i+1 until array.size) {
-            if (array[j] < array[index]) {
-                index = j
-            }
-        }
+        (i+1 until array.size)
+                .asSequence()
+                .filter { array[it] < array[index] }
+                .forEach { index = it }
         val smallerNum = array[index]
         array[index] = array[i]
         array[i] = smallerNum
